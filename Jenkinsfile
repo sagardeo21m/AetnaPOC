@@ -3,7 +3,8 @@ pipeline {
   stages {
     stage('Build') {
       steps {
-        javac Test.Java Java Test
+        javac Test.Java 
+        Java Test
       }
     }
   }
